@@ -1,0 +1,5 @@
+set main-view = date:default author:full,width=15 id:yes,color\
+                line-number:no,interval=1 \
+                commit-title:graph=yes,refs=yes,overflow=no
+set ignore-case = true
+set vertical-split = false

@@ -12,3 +12,9 @@ for i in $(ls)
 do
 	echo $i
 done
+
+echo "===== pipe |while read ==="
+du -s *| while read size fileName
+do
+	echo $size "===" $fileName
+done
